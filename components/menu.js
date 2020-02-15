@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Menu = () => (
     <div id="menu" className="flex-component">
-        <Link href="/">
+        <Link href="/bio">
         <div className="menu-link-div">
             <div className="menu-image">
                 <img src="../icons/menu-icon-bio.png" width="100"></img>
