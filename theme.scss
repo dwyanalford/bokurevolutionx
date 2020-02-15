@@ -1,0 +1,165 @@
+// This is global settings for CSS Theme of this app
+
+// variables
+$background-color: black;
+$font-color: #f3f3f3;
+$highlight-color: #2586c6;
+$font-family: 'Hind Madurai', sans-serif;
+$border-style: 1px solid rgb(62, 63, 63);
+
+body {
+    background-color: $background-color;
+}
+
+body, p, a, h1, h2, h3, h4, h5, h6 {
+    font-size-adjust: 0.5;
+  }
+
+h2, h3, h4 {
+    font-family: $font-family;
+    font-weight: 600;
+    font-style: semi-bold;
+    color: $font-color;
+}
+
+h1 {
+    font-family: $font-family;
+    color: $highlight-color;
+}
+
+p, h2, h3, button {
+    color: $font-color;
+}
+
+p, a, span {
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: $font-family;
+}
+
+span, a {
+    color: $highlight-color;
+}
+
+h1 {
+    font-size: 2em;
+    line-height: 1.25;
+  }
+  
+  @media (min-width: 43.75em) {
+    h1 {
+      font-size: 2.5em;
+      line-height: 1.125;
+    }
+  }
+  
+  @media (min-width: 56.25em) {
+    h1 {
+      font-size: 3em;
+      line-height: 1.05;
+    }
+  }
+  
+
+  h2 {
+    font-size: 1.625em;
+    line-height: 1.15384615;
+  }
+  
+  @media (min-width: 43.75em) {
+    h2 {
+      font-size: 2em;
+      line-height: 1.25;
+    }
+  }
+  
+  @media (min-width: 56.25em) {
+    h2 {
+      font-size: 2.25em;
+      line-height: 1.25;
+    }
+  }
+
+  h3 {
+    font-size: 1.375em;
+    /* 1.375x body copy size = 22px */
+    line-height: 1.13636364;
+    /* 25px / 22px */
+  }
+  
+  @media (min-width: 43.75em) {
+    h3 {
+      font-size: 1.5em;
+      /* 1.5x body copy size = 24px */
+      line-height: 1.25;
+    }
+  }
+  
+  @media (min-width: 56.25em) {
+    h3 {
+      font-size: 1.75em;
+      /* 1.75x body copy size = 28px */
+      line-height: 1.25;
+    }
+  }
+
+  h4 {
+    font-size: 1.125em;
+    /* 1.125x body copy size = 18px */
+    line-height: 1.11111111;
+  }
+  
+  @media (min-width: 43.75em) {
+    h4 {
+      line-height: 1.22222222;
+      /* (22px / 18px */
+    }
+  }
+  
+  p, a {
+    font-size: 1em;
+    /* equivalent to 16px */
+    line-height: 1.25;
+    /* equivalent to 20px */
+  }
+  
+  @media (min-width: 43.75em) {
+    p, a {
+      font-size: 1.3em;
+      /* equivalent to 16px */
+      line-height: 1.375;
+      /* equivalent to 22px */
+    }
+  }
+
+
+// global classes
+.opaque-bg {
+  background-color: $background-color;
+  opacity: 0.80;
+}
+
+.bold-text {
+    color: $highlight-color;
+}
+
+.bold-back {
+    background-color: $highlight-color;
+}
+
+.border {
+    border: $border-style;
+}
+
+.border-bottom {
+    border-bottom: $border-style;
+    padding-bottom: 15px;
+}
+
+.page-title {
+    text-align: center;
+    line-height: 0.8;
+}
+
+.text-color {
+    color: $font-color;
+}
