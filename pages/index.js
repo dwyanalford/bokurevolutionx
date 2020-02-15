@@ -9,7 +9,7 @@ import "../theme.scss"
 
 
 const Home = () => (
-  <div>
+  <div id="home-menu">
     <Head>
       <title>Home - BRX</title>
       <link rel="icon" href="/favicon.ico" />
@@ -18,17 +18,14 @@ const Home = () => (
       <link href="https://fonts.googleapis.com/css?family=Hind+Madurai:600|Open+Sans:600&display=swap" rel="stylesheet"></link>
     
     </Head>
-    <body>
     <Logo />
     <Menu />
     <div className="bgcolor"></div>
     <Copyright />
-    </body>
-    
 
     <style jsx>{`
     @media only screen and (max-width: 600px) {
-      body {
+      #home-menu {
           background-image: url("../backgrounds/clone-379-v1-500.png");
           background-repeat: no-repeat;
           background-size: auto;
@@ -37,7 +34,7 @@ const Home = () => (
       }
     }
     @media only screen and (min-width: 601px) {
-      body {
+      #home-menu {
           background-image: url("../backgrounds/clone-379-v1-835.png");
           background-repeat: no-repeat;
           background-size: auto;
@@ -46,10 +43,10 @@ const Home = () => (
       }
     }
     @media only screen and (min-width: 1100px) {
-      body {
+      #home-menu {
           background-image: url("../backgrounds/clone-379-v1-1100.png");
           background-repeat: no-repeat;
-          background-size: auto;
+          background-size: contain;
           background-position: center center;
           background-attachment: fixed;
       }
