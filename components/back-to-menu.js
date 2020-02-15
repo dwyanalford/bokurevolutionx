@@ -33,7 +33,7 @@ class BackToMenu extends Component {
     return (
       <div id="back-to-menu" className="row">
         <div className="col-12">
-            <div id="mobile-menu" className="mobile-menu-title bold-back" onClick={this.handleClick}
+            <div id="mobile-menu" className="mobile-menu-title" onClick={this.handleClick}
            ><p>&#9776;&nbsp;<span id="mobile-menu-name" className="text-color">MENU</span></p>
             </div>
           <div id="desktop-menu" className="desktopmenu border" onMouseLeave={this.handleClick}><Menu />
@@ -54,9 +54,11 @@ class BackToMenu extends Component {
         border-radius: 8px;
         cursor: pointer;
         margin-left: 50px;
+        background-color: black;
+        opacity: 0.80;
      }
      .mobile-menu-title:hover {
-         background-color: rgb(62, 63, 63);
+         opacity: 1;
      }
      .mobile-menu-title p {
         font-size: 24px;
@@ -90,6 +92,7 @@ class BackToMenu extends Component {
         bottom: 20;
         margin-left: 0;
         height: 70px;
+        margin-top: 20px;
      }
     }
     `}</style>

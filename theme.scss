@@ -116,7 +116,7 @@ h1 {
   }
   
   p, a {
-    font-size: 1em;
+    font-size: 1.15em;
     /* equivalent to 16px */
     line-height: 1.25;
     /* equivalent to 20px */
@@ -153,6 +153,11 @@ h1 {
 .border-bottom {
     border-bottom: $border-style;
     padding-bottom: 15px;
+}
+
+.border-left {
+  border-left: $border-style;
+  //padding-left: 15px;
 }
 
 .page-title {
