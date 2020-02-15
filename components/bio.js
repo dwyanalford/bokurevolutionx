@@ -3,7 +3,7 @@ import React from 'react'
 const Bio = () => (
   <div id="bio-component" className="flex-component">
     <div className="video-container composite border opaque-bg">
-    <iframe width="420" height="236" src="https://www.youtube.com/embed/IbhKGinhrLE?rel=0" frameborder="0" allowfullscreen></iframe>
+    <iframe width="420" height="236" src="https://www.youtube.com/embed/IbhKGinhrLE?rel=0" frameBorder="0" allowFullScreen></iframe>
         <h4 className="border-bottom"><span>WATCH</span> VIDEO - The Band and The Music (2:46)</h4>
         <h4><span>BOKU REVOLUTION X</span> is a super, funky, highly skilled, ethnomusicology, rap band.</h4>
     </div>
@@ -28,8 +28,11 @@ This band is in fact, what legends are made of and as understood by an unsuspect
 </p></div>
     <style jsx>{`
     .flex-component {
-        justify-content: center;
-    }
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: center;
+  }
     #bio-component div {
         padding: 16px;
         margin-bottom: 25px;
@@ -54,7 +57,6 @@ This band is in fact, what legends are made of and as understood by an unsuspect
         .flex-component {
           flex-direction: row;
           flex-wrap: wrap;
-          align-content: center;
         }
       }
     `}</style>

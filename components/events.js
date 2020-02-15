@@ -25,6 +25,12 @@ const EventsComponent = () => (
         </div>
       ))}
     <style jsx>{`
+    .flex-component {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: center;
+  }
     .events-container {
       text-align: center;
       margin-bottom: 30px;

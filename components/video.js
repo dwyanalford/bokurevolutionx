@@ -23,6 +23,12 @@ const Video = () => (
         </div>
       ))}
     <style jsx>{`
+    .flex-component {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: center;
+  }
     .video-container {
       padding: 16px;
       margin: auto;

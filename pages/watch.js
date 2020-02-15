@@ -29,7 +29,7 @@ const Watch = () => (
       #watch {
           background-image: url("../backgrounds/videos-background-mobile.jpg");
           background-repeat: no-repeat;
-          background-size: cover;
+          background-size: 100%;
           background-position: center center;
           background-attachment: fixed;
           padding: 0px;
