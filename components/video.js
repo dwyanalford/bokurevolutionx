@@ -33,44 +33,23 @@ const Video = () => (
       padding: 16px;
       margin: auto;
       margin-bottom: 30px;
+      width: 100%;
       // background-color: green;
     }
     .video-container iframe {
-      width: 436px;
-      height: 245px;
-    }
-    .video-container h3 {
-      margin-bottom: 0;
-    }
-    .video-container p {
-      margin: 8px 0;
-    }
-    .video-container h3, .video-container p {
-      width: 436px;
-     }
-    @media only screen and (min-width: 700px) and (max-width: 955px) {
-      .video-container iframe {
-        width: 600px;
-        height: 338px;
-      }
-      .video-container h3, .video-container p {
-        width: 600px;
-       }
-    }
-    @media only screen and (min-width: 1100px)  {
-      .video-container iframe {
-        width: 500px;
-        height: 281px;
-      }
-      .video-container h3, .video-container p {
-        width: 500px;
-       }
+      width: 100%;
+      height: 300px;
     }
     @media only screen and (min-width: 956px) {
       .flex-component {
         flex-direction: row;
         flex-wrap: wrap;
         align-content: center;
+      }
+      .video-container {
+        width: 50%;
+        padding: 16px;
+        margin-bottom: 30px;
       }
     }
     

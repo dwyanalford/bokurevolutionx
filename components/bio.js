@@ -10,7 +10,7 @@ const Bio = () => (
         <p><span>BOKU REVOLUTION X</span> is a super, funky, highly skilled, ethnomusicology, rap band.</p>
     </div>
     <div className="opaque-bg">
-      <h2 className="">BIO EPK</h2>
+      <h2 className="border-top-left">BIO EPK</h2>
       <p>Fronted by lead vocalist <span>Jo D. Jonz</span> with <span>Mike Tree</span> on drums and <span>Billy White</span> on keyboard. <span>BOKU</span> has performed all over Los Angeles to sold out crowds at the most premier venues in the city, such as <span>House of Blues, El Rey, The Whiskey, The Roxy, Henry Fonda</span> and <span>the Troubadour</span>. </p>
       <p>Considered ahead of their time by legendary reggae group <span>Morgan Heritage</span> and garnered fans such as Grammy award winner <span>Natalie Imbruglia</span>. Their unmatched skill set along with their innate, seamless, style, in which they morph, different, genres into their own unique sound.</p>
     </div>
@@ -19,14 +19,14 @@ const Bio = () => (
     <p>Their song <span>“Buddha Walk”</span> was chosen as song of the day by <span>Songshooter.com</span>, And As they prepare for the first studio album and tour <span>BOKU</span> could not be any more suited for the current climate of music.</p></div>
     <div className="composite opaque-bg"><img src="./images-bio/crowd.jpg" alt="Crowd at Boku Revolution X BRX 2019 Event" width="100%"></img></div>
     <div className="opaque-bg"><p>They are still in a class of their own and are able to rock any crowd from hardcore Hip-Hop to Punk, Rock & Grudge, which they so famously proved after arriving at a gig in a parking lot of a strip mall to a crowd of teenage punk fans. Surprised but undaunted <span>BOKU</span> took the stage and turned the skeptical crowd into true believers.</p>
-    <p><span>BOKU</span> members are comprised of hip, futuristic, impresarios that have nothing but love and knowledge of music that will surely delight any listener, from small rooms</p>
+    <p><span>BOKU</span> members are comprised of hip, futuristic, impresarios that have nothing but love and knowledge of music that will surely delight any listener, from small rooms to concert stadiums. </p>
     </div>
     <div className="composite opaque-bg"><img src="./images-bio/jo-d-nyc.jpg" alt="Jo D Jonz Boku Revolution X BRX" width="100%"></img></div>
-    <div className="opaque-bg"><p>to concert stadiums. The new album is of course in their signature <span>BOKU</span> tradition, a hybrid of sounds and tones that have a bit of something for everyone, mixing, <span>traditional hip-hop, trap, trip, soul, funk, rock and EDM.</span></p>
- <p>As<span>BOKU Revolution X</span> prepares for their upcoming, international tour, they have been using New York City as their testing ground... With a new sound and a new audience, <span>BOKU</span> has wowed diverse New York audiences at such venues as <span>SHRINE, THE WELL and SIDEWALK</span>, where one impressed fan said after the show... 
+    <div className="opaque-bg"><p>The new album is of course in their signature <span>BOKU</span> tradition, a hybrid of sounds and tones that have a bit of something for everyone, mixing, <span>traditional hip-hop, trap, trip, soul, funk, rock and EDM.</span></p>
+ <p>As<span>BOKU Revolution X</span> prepares for their upcoming, international tour, they have been using New York City as their testing ground... With a new sound and a new audience, <span>BOKU</span> has wowed diverse New York audiences at such venues as <span>SHRINE, THE WELL and SIDEWALK</span>, where one impressed fan said after the show.. said to JONZ  <span>“It’s, your time.”</span>. 
 </p></div>
     <div className="opaque-bg"><img src="./images-bio/band-on-stage.jpg" alt="Jo D Jonz Boku Revolution X BRX" width="100%"></img></div>
-    <div className="opaque-bg"><p>...said to JONZ  <span>“It’s, your time.”</span>&nbsp;
+    <div className="opaque-bg border-bottom"><p>
 This band is in fact, what legends are made of and as understood by an unsuspecting, new fan, who happened to walk in on their performance in Harlem, said. “I was feeling down and I came in and heard you guys and yawl lifted my spirits. Thank you, you guys are so bad m’fo...” And with their forthcoming visual album <span>“FANTASY MANIFESTO”</span>, the world will surely know it and the music scene will be inspired and uplifted by their originality and musical integrity, forever!
 </p></div>
     <style jsx>{`
