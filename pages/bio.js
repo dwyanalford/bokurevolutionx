@@ -19,7 +19,6 @@ const Bio = () => (
     </Head>
 
     <Logo />
-    <div><h2 className="page-title">BIO EPK</h2></div>
     <BioComponent />
     <Copyright />
     <BackToMenu />

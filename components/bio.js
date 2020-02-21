@@ -2,12 +2,15 @@ import React from 'react'
 
 const Bio = () => (
   <div id="bio-component" className="flex-component">
-    <div className="video-container composite opaque-bg">
-    <iframe className="border" width="420" height="236" src="https://www.youtube.com/embed/IbhKGinhrLE?rel=0" frameBorder="0" allowFullScreen></iframe>
-        <p className="border-bottom"><span>WATCH</span> VIDEO - The Band and The Music (2:46)</p>
+    <div className="composite opaque-bg">
+    <p className="border-top-left"><span>WATCH</span> VIDEO - The Band and The Music (2:46)</p>
+    <iframe className="border"  src="https://www.youtube.com/embed/IbhKGinhrLE?rel=0" frameBorder="0" allowFullScreen></iframe>
+    {/* width="420" height="236" */}
+        
         <p><span>BOKU REVOLUTION X</span> is a super, funky, highly skilled, ethnomusicology, rap band.</p>
     </div>
     <div className="opaque-bg">
+      <h2 className="">BIO EPK</h2>
       <p>Fronted by lead vocalist <span>Jo D. Jonz</span> with <span>Mike Tree</span> on drums and <span>Billy White</span> on keyboard. <span>BOKU</span> has performed all over Los Angeles to sold out crowds at the most premier venues in the city, such as <span>House of Blues, El Rey, The Whiskey, The Roxy, Henry Fonda</span> and <span>the Troubadour</span>. </p>
       <p>Considered ahead of their time by legendary reggae group <span>Morgan Heritage</span> and garnered fans such as Grammy award winner <span>Natalie Imbruglia</span>. Their unmatched skill set along with their innate, seamless, style, in which they morph, different, genres into their own unique sound.</p>
     </div>
@@ -34,25 +37,30 @@ This band is in fact, what legends are made of and as understood by an unsuspect
       justify-content: center;
   }
     #bio-component div {
-        padding: 16px;
-        margin-bottom: 25px;
+        padding: 0 24px;
+        width: 100%;
         // background-color: green;
     }
-      #bio-component img {
-        max-width: 432px;
-      }
-      #bio-component p, #bio-component h4 {
-        max-width: 492px;
-        padding-left: 15px;
+      #bio-component iframe {
+        width: 100%;
+        height: 300px;
       }
       #bio-component p {
         border-left: 1px solid rgb(62, 63, 63);
+        padding-left: 15px;
       }
-      @media only screen and (min-width: 635px) {
+      #bio-component h2 {
+        padding-left: 15px;
+      }
+      @media only screen and (min-width: 1000px) {
         .flex-component {
           flex-direction: row;
           flex-wrap: wrap;
         }
+        #bio-component div {
+          width: 50%;
+          margin-bottom: 25px;
+      }
       }
     `}</style>
   </div>

@@ -31,10 +31,10 @@ class BackToMenu extends Component {
 
   render() {
     return (
-      <div id="back-to-menu" className="row">
-        <div className="col-12">
+      <div id="back-to-menu">
+        <div>
             <div id="mobile-menu" className="mobile-menu-title" onClick={this.handleClick}
-           ><p>&#9776;&nbsp;<span id="mobile-menu-name" className="text-color">MENU</span></p>
+           ><p id="">&#9776;&nbsp;<span id="mobile-menu-name" className="text-color">MENU</span></p>
             </div>
           <div id="desktop-menu" className="desktopmenu border" onMouseLeave={this.handleClick}><Menu />
           </div>
@@ -42,23 +42,25 @@ class BackToMenu extends Component {
       <style jsx>{`
     #back-to-menu {
         position: relative;
-        width: 100%;
         color: rgb(62, 63, 63);
         text-align: center;
-        // background-color: red;
      }
      .mobile-menu-title {
-        width: 20%;
-        bottom: 0;
-        position: fixed;
-        border-radius: 8px;
-        cursor: pointer;
-        margin-left: 50px;
-        background-color: black;
-        opacity: 0.80;
+      position: fixed;
+      top: 0;
+      left: 0;
+      padding: 0 25px;
+      border-radius: 8px;
+      cursor: pointer;
+      background-color: black;
+      opacity: 0.90; 
+      margin-top: 25px;
      }
      .mobile-menu-title:hover {
          opacity: 1;
+     }
+     #back-to-menu p:hover {
+      color: #2586c6;
      }
      .mobile-menu-title p {
         font-size: 24px;
@@ -68,8 +70,8 @@ class BackToMenu extends Component {
    }
   
      @keyframes menu-transition {
-      from {margin-top: -450px;}
-      to {margin-top: 0px;}
+      from {margin-left: -720px;}
+      to {margin-left: 0px;}
     }
      #desktop-menu {
         position: fixed;
@@ -83,18 +85,11 @@ class BackToMenu extends Component {
       #mobile-menu-name {
         display: inline-block;
      }
+     #back-to-menu span:hover {
+      color: #2586c6;
+  }
     }
-    @media only screen and (min-width: 1000px) {
-      .mobile-menu-title {
-        width: 20%;
-        top: 0;
-        left: 0;
-        bottom: 20;
-        margin-left: 0;
-        height: 70px;
-        margin-top: 20px;
-     }
-    }
+    
     `}</style>
   </div>
     );
