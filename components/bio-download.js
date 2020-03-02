@@ -1,11 +1,9 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faDownload } from '@fortawesome/free-solid-svg-icons'
 
 const BioDownload = () => (
   <div id="bio-download">
     
-      <a href="./pdf/boku-revolution-x-epk.pdf" target="_blank"><FontAwesomeIcon icon={faDownload} size="xs" />Download EPK</a>
+      <a href="./pdf/boku-revolution-x-epk.pdf" target="_blank" className="border"><i className="fas fa-download fa-3x"></i><span><br/>Download EPK</span></a>
     
 
     <style jsx>{`
@@ -15,9 +13,11 @@ const BioDownload = () => (
       #bio-download a {
         position: fixed;
         bottom: 0;
-        left: 0;
+        right: 0;
         text-decoration: none;
         padding: 25px;
+        text-align: center;
+        margin-right: 10%;
         background-color: black;
       }
     `}</style>

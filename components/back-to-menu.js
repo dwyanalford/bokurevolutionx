@@ -1,44 +1,15 @@
-import React, { Component } from 'react'
-import Menu from './menu'
+import React from 'react'
+import Link from 'next/link'
 
-class BackToMenu extends Component {
-  constructor(props) {
-    super(props);
-    this.state = ''
-
-    // This binding is necessary to make `this` work in the callback
-    this.handleClick = this.handleClick.bind(this);
-  }
-
-  componentDidMount() {
-    this.handleClick()
-  }
-
-  componentWillUnmount() {
-    
-  }
-
-  handleClick() {
-    const x = document.getElementById("desktop-menu")
-    if (x.style.display === 'none') {
-      // block of code to be executed if the condition is true
-      x.style.display = 'block'
-    } else {
-      // block of code to be executed if the condition is false
-      x.style.display = 'none'
-    }
-  }
-
-  render() {
-    return (
+const BackToMenu = () => (
       <div id="back-to-menu">
+        <Link href="/">
         <div>
-            <div id="mobile-menu" className="mobile-menu-title" onClick={this.handleClick}
+            <div id="mobile-menu" className="mobile-menu-title" 
            ><p id="">&#9776;&nbsp;<span id="mobile-menu-name" className="text-color">MENU</span></p>
             </div>
-          <div id="desktop-menu" className="desktopmenu border" onMouseLeave={this.handleClick}><Menu />
-          </div>
       </div>
+      </Link>
       <style jsx>{`
     #back-to-menu {
         position: relative;
@@ -92,8 +63,7 @@ class BackToMenu extends Component {
     
     `}</style>
   </div>
-    );
-  }
-}
+  
+  )
 
 export default BackToMenu
