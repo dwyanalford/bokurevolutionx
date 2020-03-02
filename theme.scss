@@ -31,7 +31,11 @@ p, h2, h3, button {
     color: $font-color;
 }
 
-p, a, span {
+button:hover {
+  color: $highlight-color;
+}
+
+p, a, span, button {
     /* font-family: 'Open Sans', sans-serif; */
     font-family: $font-family;
 }

@@ -4,6 +4,7 @@ import Logo from '../components/logo'
 import BioComponent from '../components/bio'
 import BackToMenu from '../components/back-to-menu'
 import Copyright from '../components/copyright'
+import BioDownload from '../components/bio-download'
 
 import "../layout.scss"
 import "../theme.scss"
@@ -22,6 +23,7 @@ const Bio = () => (
     <BioComponent />
     <Copyright />
     <BackToMenu />
+    <BioDownload />
 
     
 
