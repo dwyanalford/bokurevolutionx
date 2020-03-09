@@ -5,7 +5,7 @@ const Logo = () => (
   <div id="logo" className="row">
     <div className="col-12">
             <Link href="/">
-              <img src="./logo/boku-logo-flattened.png"></img>
+              <img src="./logo/boku-logo.png"></img>
             </Link>
     </div>
 
