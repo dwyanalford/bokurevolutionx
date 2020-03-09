@@ -24,33 +24,33 @@ const Home = () => (
     <Copyright />
 
     <style jsx>{`
-    @media only screen and (max-width: 600px) {
-      #home-menu {
-          background-image: url("../backgrounds/clone-379-v1-500.png");
-          background-repeat: no-repeat;
-          background-size: auto;
-          background-position: top center;
-          background-attachment: fixed;
-      }
-    }
-    @media only screen and (min-width: 601px) {
-      #home-menu {
-          background-image: url("../backgrounds/clone-379-v1-835.png");
-          background-repeat: no-repeat;
-          background-size: auto;
-          background-position: top center;
-          background-attachment: fixed;
-      }
-    }
-    @media only screen and (min-width: 1100px) {
-      #home-menu {
-          background-image: url("../backgrounds/clone-379-v1-1100.png");
-          background-repeat: no-repeat;
-          background-size: contain;
-          background-position: center center;
-          background-attachment: fixed;
-      }
-    }
+    // @media only screen and (max-width: 600px) {
+    //   #home-menu {
+    //       background-image: url("../backgrounds/clone-379-v1-500.png");
+    //       background-repeat: no-repeat;
+    //       background-size: auto;
+    //       background-position: top center;
+    //       background-attachment: fixed;
+    //   }
+    // }
+    // @media only screen and (min-width: 601px) {
+    //   #home-menu {
+    //       background-image: url("../backgrounds/clone-379-v1-835.png");
+    //       background-repeat: no-repeat;
+    //       background-size: auto;
+    //       background-position: top center;
+    //       background-attachment: fixed;
+    //   }
+    // }
+    // @media only screen and (min-width: 1100px) {
+    //   #home-menu {
+    //       background-image: url("../backgrounds/clone-379-v1-1100.png");
+    //       background-repeat: no-repeat;
+    //       background-size: contain;
+    //       background-position: center center;
+    //       background-attachment: fixed;
+    //   }
+    // }
     `}</style>
   </div>
 )

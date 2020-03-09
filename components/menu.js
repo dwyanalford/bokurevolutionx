@@ -6,7 +6,7 @@ const Menu = () => (
         <Link href="/bio">
         <div className="menu-link-div">
             <div className="menu-image">
-                <img src="../icons/menu-icon-bio.png" width="100"></img>
+                <img src="../icons/menu-icon-bio.png" width="100" className="border"></img>
             </div>
             <div className="menu-text"><p>DATA</p>
             </div>
@@ -15,7 +15,7 @@ const Menu = () => (
         <Link href="/watch">
         <div className="menu-link-div">
             <div className="menu-image">
-                <img src="../icons/menu-icon-watch.png" width="100"></img>
+                <img src="../icons/menu-icon-watch.png" width="100" className="border"></img>
             </div>
             <div className="menu-text"><p>WATCH</p>
             </div>
@@ -25,7 +25,7 @@ const Menu = () => (
         <div className="menu-link-div">
             <a href="https://soundcloud.com/bokurevolutionx" target="_blank">
                 <div className="menu-image">
-                    <img src="../icons/menu-icon-listen.png" width="100"></img>
+                    <img src="../icons/menu-icon-listen.png" width="100"  className="border"></img>
                 </div>
                 <div className="menu-text"><p>LISTEN</p>
                 </div>
@@ -36,7 +36,7 @@ const Menu = () => (
         <div className="menu-link-div">
         <a href="https://bokurevolutionx.square.site/s/shop" target="_blank">
             <div className="menu-image">
-                <img src="../icons/menu-icon-shop.png" width="100"></img>
+                <img src="../icons/menu-icon-shop.png" width="100" className="border"></img>
             </div>
             <div className="menu-text"><p>SHOP</p>
             </div>
@@ -46,7 +46,7 @@ const Menu = () => (
         <Link href="/events">
         <div className="menu-link-div">
             <div className="menu-image">
-                <img src="../icons/menu-icon-events.png" width="100"></img>
+                <img src="../icons/menu-icon-events.png" width="100" className="border"></img>
             </div>
             <div className="menu-text"><p>EVENTS</p>
             </div>
@@ -55,7 +55,7 @@ const Menu = () => (
         <Link href="/contact">
         <div className="menu-link-div">
             <div className="menu-image">
-                <img src="../icons/menu-icon-contact.png" width="100"></img>
+                <img src="../icons/menu-icon-contact.png" width="100" className="border"></img>
             </div>
             <div className="menu-text"><p>CONTACT</p>
             </div>
@@ -63,13 +63,12 @@ const Menu = () => (
         </Link>
         <style jsx>{`
         #menu {
-            margin-top: 16px;
+            padding-top: 45px;
         }
         .flex-component {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
-            // align-content: center;
             justify-content: flex-start;
         }
         .menu-link-div {
@@ -83,8 +82,8 @@ const Menu = () => (
             // background-color: blue;
         }
         .menu-link-div:hover {
-            color: #75C4C3;
-            border-bottom: 1px solid #75C4C3;
+            border: 1px solid #75C4C3;
+            padding: 24px 15px;
         }
         .menu-image {
             margin: auto;
@@ -95,8 +94,15 @@ const Menu = () => (
             height: 20%;
             // background-color: gold;
         }
+        .menu-text p {
+            color: grey;
+        }
         #menu  a {
             text-decoration: none;
+        }
+        #menu img {
+            border-radius: 12px;
+            width: 120px;   
         }
         @media only screen and (min-width: 500px) {
             .menu-link-div {
