@@ -73,7 +73,7 @@ const Menu = () => (
         }
         .menu-link-div {
             width: 130px;
-            margin-right: 8px;
+            // margin-right: 8px;
             text-align: center;
             cursor: pointer;
             // ** important border below
@@ -83,7 +83,7 @@ const Menu = () => (
         }
         .menu-link-div:hover {
             border: 1px solid #75C4C3;
-            padding: 24px 15px;
+            // padding: 24px 0px;
         }
         .menu-image {
             margin: auto;
