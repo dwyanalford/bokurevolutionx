@@ -29,19 +29,19 @@ const Bio = () => (
     
 
     <style jsx>{`
-          #bio {
-                background-image: url("../backgrounds/body-backg-mobile.jpg");
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: top center;
-                background-attachment: fixed;
-                padding: 0px;
-                margin: 0px;
-            }
-        @media only screen and (max-width: 800px) {
-           #bio {
-          padding-bottom: 50px;
-         }
+        //   #bio {
+        //         background-image: url("../backgrounds/body-backg-mobile.jpg");
+        //         background-repeat: no-repeat;
+        //         background-size: cover;
+        //         background-position: top center;
+        //         background-attachment: fixed;
+        //         padding: 0px;
+        //         margin: 0px;
+        //     }
+        // @media only screen and (max-width: 800px) {
+        //    #bio {
+        //   padding-bottom: 50px;
+        //  }
     `}</style>
   </div>
 )
