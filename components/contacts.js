@@ -6,7 +6,6 @@ const Contacts = () => (
     <div>
       <h4 className="theme-font-color">For all inquiries and bookings:</h4>
       <p className="theme-font-color">Christopher Masters
-      <br/>(718)877-9522
       <br/>bokurx@gmail.com</p>
       <img width="300" src="./logo/herac-management-w350.png"></img>
     </div>
